@@ -11,7 +11,7 @@
 
 // SpeakHello.js
 
-(function (window) {
+
   var helloSpeaker = {};
   var speakWord = "Hello";
 
@@ -20,7 +20,7 @@
   };
 
   window.helloSpeaker = helloSpeaker;
-})(window);
+
 
 
 // STEP 4: Rewrite the 'speak' function such that it is attached to the

@@ -13,7 +13,7 @@
 // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
 // SpeakGoodBye.js
 
-(function (window) {
+
   var byeSpeaker = {};
   var speakWord = "Good Bye";
 
@@ -22,7 +22,7 @@
   };
 
   window.byeSpeaker = byeSpeaker;
-})(window);
+
 
 
 // STEP 8: Rewrite the 'speak' function such that it is attached to the
